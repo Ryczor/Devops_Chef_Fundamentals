@@ -1,0 +1,108 @@
+I, [2019-07-19T23:14:42.512394 #9340]  INFO -- default-windows-2012r2: -----> Cleaning up any prior instances of <default-windows-2012r2>
+I, [2019-07-19T23:14:42.515136 #9340]  INFO -- default-windows-2012r2: -----> Destroying <default-windows-2012r2>...
+I, [2019-07-19T23:14:45.255878 #9340]  INFO -- default-windows-2012r2: WARNING: Vagrant has detected the `vagrant-winrm` plugin. Vagrant ships with
+I, [2019-07-19T23:14:45.255994 #9340]  INFO -- default-windows-2012r2: WinRM support builtin and no longer requires the `vagrant-winrm` plugin. To
+I, [2019-07-19T23:14:45.256164 #9340]  INFO -- default-windows-2012r2: prevent unexpected errors please uninstall the `vagrant-winrm` plugin using
+I, [2019-07-19T23:14:45.256282 #9340]  INFO -- default-windows-2012r2: the command shown below:
+I, [2019-07-19T23:14:45.256384 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:14:45.256430 #9340]  INFO -- default-windows-2012r2:   vagrant plugin uninstall vagrant-winrm
+I, [2019-07-19T23:14:45.256490 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:14:45.256553 #9340]  INFO -- default-windows-2012r2: To disable this warning, set the environment variable `VAGRANT_IGNORE_WINRM_PLUGIN`
+I, [2019-07-19T23:14:47.282928 #9340]  INFO -- default-windows-2012r2: ==> default: Forcing shutdown of VM...
+I, [2019-07-19T23:14:48.888267 #9340]  INFO -- default-windows-2012r2: ==> default: Destroying VM and associated drives...
+I, [2019-07-19T23:14:49.096789 #9340]  INFO -- default-windows-2012r2: Vagrant instance <default-windows-2012r2> destroyed.
+I, [2019-07-19T23:14:49.103146 #9340]  INFO -- default-windows-2012r2: Finished destroying <default-windows-2012r2> (0m6.58s).
+I, [2019-07-19T23:14:49.104524 #9340]  INFO -- default-windows-2012r2: -----> Testing <default-windows-2012r2>
+I, [2019-07-19T23:14:49.105679 #9340]  INFO -- default-windows-2012r2: -----> Creating <default-windows-2012r2>...
+I, [2019-07-19T23:14:50.990548 #9340]  INFO -- default-windows-2012r2: WARNING: Vagrant has detected the `vagrant-winrm` plugin. Vagrant ships with
+I, [2019-07-19T23:14:50.990716 #9340]  INFO -- default-windows-2012r2: WinRM support builtin and no longer requires the `vagrant-winrm` plugin. To
+I, [2019-07-19T23:14:50.990797 #9340]  INFO -- default-windows-2012r2: prevent unexpected errors please uninstall the `vagrant-winrm` plugin using
+I, [2019-07-19T23:14:50.990942 #9340]  INFO -- default-windows-2012r2: the command shown below:
+I, [2019-07-19T23:14:50.991103 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:14:50.991266 #9340]  INFO -- default-windows-2012r2:   vagrant plugin uninstall vagrant-winrm
+I, [2019-07-19T23:14:50.991445 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:14:50.991652 #9340]  INFO -- default-windows-2012r2: To disable this warning, set the environment variable `VAGRANT_IGNORE_WINRM_PLUGIN`
+I, [2019-07-19T23:14:51.049082 #9340]  INFO -- default-windows-2012r2: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2019-07-19T23:14:52.305297 #9340]  INFO -- default-windows-2012r2: ==> default: Importing base box 'windows-2012r2'...
+I, [2019-07-19T23:15:34.115311 #9340]  INFO -- default-windows-2012r2: [KProgress: 10%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2019-07-19T23:15:35.395467 #9340]  INFO -- default-windows-2012r2: ==> default: Setting the name of the VM: kitchen-workstation-default-windows-2012r2
+I, [2019-07-19T23:15:35.873781 #9340]  INFO -- default-windows-2012r2: ==> default: Fixed port collision for 3389 => 3389. Now on port 2200.
+I, [2019-07-19T23:15:35.884547 #9340]  INFO -- default-windows-2012r2: ==> default: Fixed port collision for 5985 => 5985. Now on port 2201.
+I, [2019-07-19T23:15:36.895855 #9340]  INFO -- default-windows-2012r2: ==> default: Fixed port collision for 5986 => 55986. Now on port 2202.
+I, [2019-07-19T23:15:37.898395 #9340]  INFO -- default-windows-2012r2: ==> default: Fixed port collision for 22 => 2222. Now on port 2203.
+I, [2019-07-19T23:15:37.952098 #9340]  INFO -- default-windows-2012r2: ==> default: Clearing any previously set network interfaces...
+I, [2019-07-19T23:15:38.021372 #9340]  INFO -- default-windows-2012r2: ==> default: Preparing network interfaces based on configuration...
+I, [2019-07-19T23:15:38.021498 #9340]  INFO -- default-windows-2012r2:     default: Adapter 1: nat
+I, [2019-07-19T23:15:38.112916 #9340]  INFO -- default-windows-2012r2: ==> default: Forwarding ports...
+I, [2019-07-19T23:15:38.223399 #9340]  INFO -- default-windows-2012r2:     default: 3389 (guest) => 2200 (host) (adapter 1)
+I, [2019-07-19T23:15:38.223553 #9340]  INFO -- default-windows-2012r2:     default: 5985 (guest) => 2201 (host) (adapter 1)
+I, [2019-07-19T23:15:38.223666 #9340]  INFO -- default-windows-2012r2:     default: 5986 (guest) => 2202 (host) (adapter 1)
+I, [2019-07-19T23:15:38.223777 #9340]  INFO -- default-windows-2012r2:     default: 22 (guest) => 2203 (host) (adapter 1)
+I, [2019-07-19T23:15:38.454712 #9340]  INFO -- default-windows-2012r2: ==> default: Running 'pre-boot' VM customizations...
+I, [2019-07-19T23:15:38.811919 #9340]  INFO -- default-windows-2012r2: ==> default: Booting VM...
+I, [2019-07-19T23:15:43.936835 #9340]  INFO -- default-windows-2012r2: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2019-07-19T23:15:44.570656 #9340]  INFO -- default-windows-2012r2:     default: WinRM address: 127.0.0.1:2201
+I, [2019-07-19T23:15:44.570856 #9340]  INFO -- default-windows-2012r2:     default: WinRM username: vagrant
+I, [2019-07-19T23:15:44.570980 #9340]  INFO -- default-windows-2012r2:     default: WinRM execution_time_limit: PT2H
+I, [2019-07-19T23:15:44.571048 #9340]  INFO -- default-windows-2012r2:     default: WinRM transport: negotiate
+I, [2019-07-19T23:16:05.627019 #9340]  INFO -- default-windows-2012r2: ==> default: Machine booted and ready!
+I, [2019-07-19T23:16:05.627132 #9340]  INFO -- default-windows-2012r2: ==> default: Checking for guest additions in VM...
+I, [2019-07-19T23:16:05.929738 #9340]  INFO -- default-windows-2012r2: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2019-07-19T23:16:19.362113 #9340]  INFO -- default-windows-2012r2: [WinRM] Established
+I, [2019-07-19T23:16:19.375934 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:16:19.438388 #9340]  INFO -- default-windows-2012r2: Vagrant instance <default-windows-2012r2> created.
+I, [2019-07-19T23:16:19.444244 #9340]  INFO -- default-windows-2012r2: Finished creating <default-windows-2012r2> (1m30.33s).
+I, [2019-07-19T23:16:19.445654 #9340]  INFO -- default-windows-2012r2: -----> Converging <default-windows-2012r2>...
+I, [2019-07-19T23:16:19.476617 #9340]  INFO -- default-windows-2012r2: Preparing files for transfer
+I, [2019-07-19T23:16:19.477694 #9340]  INFO -- default-windows-2012r2: Preparing dna.json
+I, [2019-07-19T23:16:19.482734 #9340]  INFO -- default-windows-2012r2: Resolving cookbook dependencies with Berkshelf 7.0.6...
+I, [2019-07-19T23:16:23.858931 #9340]  INFO -- default-windows-2012r2: Removing non-cookbook files before transfer
+I, [2019-07-19T23:16:23.877975 #9340]  INFO -- default-windows-2012r2: Preparing validation.pem
+I, [2019-07-19T23:16:23.915254 #9340]  INFO -- default-windows-2012r2: Preparing client.rb
+I, [2019-07-19T23:16:26.044825 #9340]  INFO -- default-windows-2012r2: -----> Installing Chef Omnibus (install only if missing)
+I, [2019-07-19T23:16:26.254371 #9340]  INFO -- default-windows-2012r2: Downloading package from https://packages.chef.io/files/stable/chef/15.1.36/windows/2019/chef-client-15.1.36-1-x64.msi
+I, [2019-07-19T23:16:33.465051 #9340]  INFO -- default-windows-2012r2: Download complete.
+I, [2019-07-19T23:16:38.242694 #9340]  INFO -- default-windows-2012r2: Successfully verified C:\Users\vagrant\AppData\Local\Temp\chef-client-15.1.36-1-x64.msi
+I, [2019-07-19T23:16:38.285307 #9340]  INFO -- default-windows-2012r2: Installing Chef Omnibus package C:\Users\vagrant\AppData\Local\Temp\chef-client-15.1.36-1-x64.msi
+I, [2019-07-19T23:17:10.764385 #9340]  INFO -- default-windows-2012r2: Installation complete
+I, [2019-07-19T23:17:11.134677 #9340]  INFO -- default-windows-2012r2: Transferring files to <default-windows-2012r2>
+I, [2019-07-19T23:17:23.168914 #9340]  INFO -- default-windows-2012r2: +---------------------------------------------+
+I, [2019-07-19T23:17:23.210717 #9340]  INFO -- default-windows-2012r2: [32mâœ”[0m 2 product licenses accepted.
+I, [2019-07-19T23:17:23.246502 #9340]  INFO -- default-windows-2012r2: +---------------------------------------------+
+I, [2019-07-19T23:17:24.157747 #9340]  INFO -- default-windows-2012r2: Starting Chef Infra Client, version 15.1.36
+I, [2019-07-19T23:17:27.435114 #9340]  INFO -- default-windows-2012r2: Creating a new client identity for default-windows-2012r2 using the validator key.
+I, [2019-07-19T23:17:27.456972 #9340]  INFO -- default-windows-2012r2: resolving cookbooks for run list: ["workstation::default"]
+I, [2019-07-19T23:17:27.476461 #9340]  INFO -- default-windows-2012r2: Synchronizing Cookbooks:
+I, [2019-07-19T23:17:27.496113 #9340]  INFO -- default-windows-2012r2:   - workstation (0.1.0)
+I, [2019-07-19T23:17:27.516748 #9340]  INFO -- default-windows-2012r2: Installing Cookbook Gems:
+I, [2019-07-19T23:17:27.538084 #9340]  INFO -- default-windows-2012r2: Compiling Cookbooks...
+I, [2019-07-19T23:17:27.559814 #9340]  INFO -- default-windows-2012r2: Converging 2 resources
+I, [2019-07-19T23:17:27.579331 #9340]  INFO -- default-windows-2012r2: Recipe: workstation::disable-uac
+I, [2019-07-19T23:17:27.599174 #9340]  INFO -- default-windows-2012r2:   * registry_key[HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System] action create (up to date)
+I, [2019-07-19T23:17:27.621185 #9340]  INFO -- default-windows-2012r2:   * registry_key[HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System] action create
+I, [2019-07-19T23:17:27.640683 #9340]  INFO -- default-windows-2012r2:     - set value {:name=>"ConsentPromptBehaviorAdmin", :type=>:dword, :data=>0}
+I, [2019-07-19T23:17:27.660265 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:17:27.681554 #9340]  INFO -- default-windows-2012r2: Running handlers:
+I, [2019-07-19T23:17:27.701644 #9340]  INFO -- default-windows-2012r2: Running handlers complete
+I, [2019-07-19T23:17:27.722307 #9340]  INFO -- default-windows-2012r2: Chef Infra Client finished, 1/2 resources updated in 04 seconds
+I, [2019-07-19T23:17:27.824971 #9340]  INFO -- default-windows-2012r2: Downloading files from <default-windows-2012r2>
+I, [2019-07-19T23:17:27.839636 #9340]  INFO -- default-windows-2012r2: Finished converging <default-windows-2012r2> (1m8.39s).
+I, [2019-07-19T23:17:27.840810 #9340]  INFO -- default-windows-2012r2: -----> Setting up <default-windows-2012r2>...
+I, [2019-07-19T23:17:27.846738 #9340]  INFO -- default-windows-2012r2: Finished setting up <default-windows-2012r2> (0m0.00s).
+I, [2019-07-19T23:17:27.847794 #9340]  INFO -- default-windows-2012r2: -----> Verifying <default-windows-2012r2>...
+I, [2019-07-19T23:17:32.683639 #9340]  INFO -- default-windows-2012r2: Loaded tests from {:path=>"C:.Users.silvi.chef-repo.cookbooks.workstation.test.smoke.default"} 
+I, [2019-07-19T23:17:33.456787 #9340]  INFO -- default-windows-2012r2: Finished verifying <default-windows-2012r2> (0m5.60s).
+I, [2019-07-19T23:17:33.458873 #9340]  INFO -- default-windows-2012r2: -----> Destroying <default-windows-2012r2>...
+I, [2019-07-19T23:17:36.296361 #9340]  INFO -- default-windows-2012r2: WARNING: Vagrant has detected the `vagrant-winrm` plugin. Vagrant ships with
+I, [2019-07-19T23:17:36.296493 #9340]  INFO -- default-windows-2012r2: WinRM support builtin and no longer requires the `vagrant-winrm` plugin. To
+I, [2019-07-19T23:17:36.296544 #9340]  INFO -- default-windows-2012r2: prevent unexpected errors please uninstall the `vagrant-winrm` plugin using
+I, [2019-07-19T23:17:36.296697 #9340]  INFO -- default-windows-2012r2: the command shown below:
+I, [2019-07-19T23:17:36.296850 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:17:36.297043 #9340]  INFO -- default-windows-2012r2:   vagrant plugin uninstall vagrant-winrm
+I, [2019-07-19T23:17:36.297189 #9340]  INFO -- default-windows-2012r2: 
+I, [2019-07-19T23:17:36.297322 #9340]  INFO -- default-windows-2012r2: To disable this warning, set the environment variable `VAGRANT_IGNORE_WINRM_PLUGIN`
+I, [2019-07-19T23:17:38.607933 #9340]  INFO -- default-windows-2012r2: ==> default: Forcing shutdown of VM...
+I, [2019-07-19T23:17:40.300264 #9340]  INFO -- default-windows-2012r2: ==> default: Destroying VM and associated drives...
+I, [2019-07-19T23:17:40.561877 #9340]  INFO -- default-windows-2012r2: Vagrant instance <default-windows-2012r2> destroyed.
+I, [2019-07-19T23:17:40.569553 #9340]  INFO -- default-windows-2012r2: Finished destroying <default-windows-2012r2> (0m7.10s).
+I, [2019-07-19T23:17:40.571009 #9340]  INFO -- default-windows-2012r2: Finished testing <default-windows-2012r2> (2m58.06s).

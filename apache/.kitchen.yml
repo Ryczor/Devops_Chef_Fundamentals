@@ -17,12 +17,12 @@ verifier:
   name: inspec
 
 platforms:
-  - name: windows-2012r2
+  - name: centos-7
 
 suites:
   - name: default
     run_list:
-      - recipe[myiis::default]
+      - recipe[apache::default]
     verifier:
       inspec_tests:
         - test/smoke/default

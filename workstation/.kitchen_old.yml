@@ -4,6 +4,7 @@ driver:
 
 provisioner:
   name: chef_zero
+  cookbook_path: C:\Users\Administrator\cookbooks 
   client_rb:
    chef_license: accept
    product_name: chef
@@ -17,12 +18,13 @@ verifier:
   name: inspec
 
 platforms:
-  - name: windows-2012r2
+  - name: ubuntu-16.04
+  - name: centos-7
 
 suites:
   - name: default
     run_list:
-      - recipe[myiis::default]
+      - recipe[workstation::default]
     verifier:
       inspec_tests:
         - test/smoke/default
